@@ -16,7 +16,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol   {
+class SearchResultsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol   {
     @IBOutlet var appsTableView : UITableView?
     var tableData = []
     var api = APIController()
