@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B533B3FC1ACC8BC300E10BD2 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = B533B3FA1ACC8BC300E10BD2 /* Blank52.png */; };
 		B5728B331ACC70A90060B8D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5728B321ACC70A90060B8D8 /* AppDelegate.swift */; };
 		B5728B351ACC70A90060B8D8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5728B341ACC70A90060B8D8 /* SearchResultsViewController.swift */; };
 		B5728B381ACC70A90060B8D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5728B361ACC70A90060B8D8 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B533B3FA1ACC8BC300E10BD2 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
 		B5728B2D1ACC70A90060B8D8 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5728B311ACC70A90060B8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5728B321ACC70A90060B8D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		B5728B2F1ACC70A90060B8D8 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B533B3FA1ACC8BC300E10BD2 /* Blank52.png */,
 				B5728B321ACC70A90060B8D8 /* AppDelegate.swift */,
 				B5728B341ACC70A90060B8D8 /* SearchResultsViewController.swift */,
 				B5728B361ACC70A90060B8D8 /* Main.storyboard */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5728B381ACC70A90060B8D8 /* Main.storyboard in Resources */,
+				B533B3FC1ACC8BC300E10BD2 /* Blank52.png in Resources */,
 				B5728B3D1ACC70A90060B8D8 /* LaunchScreen.xib in Resources */,
 				B5728B3A1ACC70A90060B8D8 /* Images.xcassets in Resources */,
 			);
