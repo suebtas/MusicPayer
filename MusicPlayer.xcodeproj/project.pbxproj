@@ -13,6 +13,7 @@
 		B5728B3A1ACC70A90060B8D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5728B391ACC70A90060B8D8 /* Images.xcassets */; };
 		B5728B3D1ACC70A90060B8D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5728B3B1ACC70A90060B8D8 /* LaunchScreen.xib */; };
 		B5728B491ACC70A90060B8D8 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5728B481ACC70A90060B8D8 /* MusicPlayerTests.swift */; };
+		B5E983F21ACC76F50094433B /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E983F11ACC76F50094433B /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B5728B421ACC70A90060B8D8 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5728B471ACC70A90060B8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5728B481ACC70A90060B8D8 /* MusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTests.swift; sourceTree = "<group>"; };
+		B5E983F11ACC76F50094433B /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B5728B391ACC70A90060B8D8 /* Images.xcassets */,
 				B5728B3B1ACC70A90060B8D8 /* LaunchScreen.xib */,
 				B5728B301ACC70A90060B8D8 /* Supporting Files */,
+				B5E983F11ACC76F50094433B /* APIController.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				B5728B351ACC70A90060B8D8 /* ViewController.swift in Sources */,
 				B5728B331ACC70A90060B8D8 /* AppDelegate.swift in Sources */,
+				B5E983F21ACC76F50094433B /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				B5728B4E1ACC70A90060B8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5728B4F1ACC70A90060B8D8 /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				B5728B511ACC70A90060B8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
