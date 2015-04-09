@@ -13,9 +13,10 @@ protocol APIControllerProtocol {
     func didReceiveAPIResults(results: NSDictionary)
 }
 class APIController {
-    var delegate: APIControllerProtocol?
+    var delegate: APIControllerProtocol
     
-    init() {
+    init(delegate: APIControllerProtocol) {
+        self.delegate = delegate
     }
     func searchItunesFor(searchTerm: String) {
         
@@ -41,7 +42,7 @@ class APIController {
                     println("JSON Error \(err!.localizedDescription)")
                 }
                 let results: NSArray = jsonResult["results"] as NSArray
-                self.delegate?.didReceiveAPIResults(jsonResult)
+                self.delegate.didReceiveAPIResults(jsonResult)
             })
             
             task.resume()

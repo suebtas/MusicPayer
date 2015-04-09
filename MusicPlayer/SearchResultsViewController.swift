@@ -20,13 +20,13 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource, UITa
     let kCellIdentifier: String = "SearchResultCell"
     @IBOutlet var appsTableView : UITableView?
     var tableData = []
-    var api = APIController()
+    var api : APIController?
     // let session = NSURLSession.sharedSession()
     var imageCache = [String : UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        api.delegate = self
-        api.searchItunesFor("Angry Birds")
+        api = APIController(delegate: self)
+        api!.searchItunesFor("Angry Bird")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
